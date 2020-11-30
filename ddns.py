@@ -27,9 +27,9 @@ def get_local_ip():
 class AliApi:
     def __init__(self):
         self.client = AcsClient(
-            'LTAIil8wxBQPu679',
-            'TmbjPIOwCOrU5zLnJUsnkdSwdwi63C',
-            'cn-muzg'
+            '',
+            '',
+            ''
         )
         self.request = CommonRequest()
         self.request.set_domain('alidns.aliyuncs.com')
